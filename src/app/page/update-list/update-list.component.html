@@ -1,0 +1,26 @@
+<h3>Atualizar Sala</h3>
+<div [hidden]="submitted" style="width: 400px;">
+    <form (ngSubmit)="ngSubmit()">
+        <div class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" class="form-control" id="name" required [(ngModel)]="room.name" name="name">
+        </div>
+
+        <div class="form-group">
+            <label for="date">Data</label>
+            <input type="date" class="form-control" id="name" required [(ngModel)]="room.date" name="date">
+        </div>
+
+        <div class="form-group">
+            <label for="startHour">Horário inicial</label>
+            <input type="time" class="form-control" id="startHour" required [(ngModel)]="room.startHour" name="startHour">
+        </div>
+
+        <div class="form-group">
+            <label for="endHour">Horário final</label>
+            <input type="time" class="form-control" id="endHour" required [(ngModel)]="room.endHour" name="endHour">
+        </div>
+
+        <button type="submit" class="btn btn-sucess">Atualizar</button>
+    </form>
+</div>
