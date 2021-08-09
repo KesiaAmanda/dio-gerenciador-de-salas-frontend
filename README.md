@@ -1,4 +1,18 @@
-# Saladereuniao
+# Gerenciador de Salas de Reuniões
+
+SPA escrita em Angular.
+
+## Instalação
+
+1. clone o repositório `git clone git@github.com:KesiaAmanda/dio-gerenciador-de-salas-frontend`
+2. Entre no projeto e instale as dependências `npm install`
+
+## Ambiente Local
+
+Execute `ng serve` para que o projeto suba localmente. Acesse a url `http://localhost:4200/`. O projeto já está com reload automático conforme as alterações que você realizar no código.
+
+[Backend do Projeto](https://github.com/KesiaAmanda/dio-gerenciador-de-salas-api).
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.0-rc.7.
 
